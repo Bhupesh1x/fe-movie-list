@@ -1,4 +1,36 @@
 * {
   margin: 0;
   padding: 0;
+  color: white;
+  font-family: "sans-sarif";
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+/* Medium Devices Styles */
+
+@media (min-width: 768px) {
+}
+
+/* Large Devices Styles */
+
+@media (min-width: 1024px) {
 }

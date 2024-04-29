@@ -1,0 +1,20 @@
+.header {
+  background-color: #2c2c2c;
+  height: fit-content;
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.header__container {
+  padding: 0 3rem;
+}
+
+.header__container > p {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #f0283c;
+  font-size: 1.5rem;
+  margin: 10px 0;
+}

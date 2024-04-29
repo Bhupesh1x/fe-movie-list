@@ -1,0 +1,13 @@
+.selected {
+  background-color: #f0283c !important;
+}
+
+.genre__name {
+  background-color: #424242;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.5rem;
+  width: fit-content;
+  min-width: 6.5rem;
+  text-align: center;
+  cursor: pointer;
+}

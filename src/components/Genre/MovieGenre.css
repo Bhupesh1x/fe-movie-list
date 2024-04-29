@@ -1,0 +1,20 @@
+.genre {
+  margin-top: 3rem;
+}
+
+.genre__container {
+  display: flex;
+  width: 100%;
+  overflow-x: auto;
+  gap: 0.5rem;
+}
+
+/* For WebKit browsers (such as Chrome, Safari) */
+.genre__container::-webkit-scrollbar {
+  width: 0; /* Hide scrollbar */
+}
+
+/* For Firefox */
+.genre__container {
+  scrollbar-width: none; /* Hide scrollbar */
+}
